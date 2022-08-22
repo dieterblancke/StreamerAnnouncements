@@ -1,0 +1,16 @@
+commands:
+  streamerannouncements:
+    enabled: true
+    name: 'streamerannouncements'
+    aliases: 'san'
+    permission: streamerannouncements.commands.admin
+  stream:
+    enabled: true
+    name: 'stream'
+    aliases: 'twitch'
+    permission: streamerannouncements.commands.stream
+  video:
+    enabled: true
+    name: 'video'
+    aliases: 'youtube'
+    permission: streamerannouncements.commands.video

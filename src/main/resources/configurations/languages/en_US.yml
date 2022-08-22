@@ -1,0 +1,26 @@
+commands:
+  streamerannouncements:
+    reloaded: '&aThe plugin has been reloaded successfully!'
+    help:
+      - '&bStreamerAnnouncements &ehelp reference:'
+      - '&e- &7/streamerannouncements reload'
+
+  stream:
+    usage: '&ePlease use &b/stream (stream url)&e!'
+    broadcast:
+      text:
+        - text: '&e&l{user} &b&lis now broadcasting on his Twitch!{nl}'
+        - text: '&a&lCLICK HERE TO WATCH'
+          click:
+            type: 'OPEN_URL'
+            action: '{stream-url}'
+
+  video:
+    usage: '&ePlease use &b/video (video url)&e!'
+    broadcast:
+      text:
+        - text: '&e&l{user} &b&lhas released a new video!{nl}'
+        - text: '&a&lCLICK HERE TO WATCH'
+          click:
+            type: 'OPEN_URL'
+            action: '{video-url}'

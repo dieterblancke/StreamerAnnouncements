@@ -1,0 +1,5 @@
+name: StreamerAnnouncements
+main: be.dieterblancke.proxy.streamerannouncements.Bootstrap
+version: ${project.version}
+author: didjee2
+depends: [ 'BungeeUtilisalsX' ]
